@@ -1,0 +1,32 @@
+{
+  "name": "route-sort",
+  "version": "0.0.0",
+  "repository": "lukeed/route-sort",
+  "description": "WIP",
+  "main": "dist/sort.js",
+  "unpkg": "dist/sort.min.js",
+  "module": "dist/sort.mjs",
+  "umd:name": "routesort",
+  "license": "MIT",
+  "author": {
+    "name": "Luke Edwards",
+    "email": "luke.edwards05@gmail.com",
+    "url": "https://lukeed.com"
+  },
+  "files": [
+    "dist"
+  ],
+  "engines": {
+    "node": ">= 6"
+  },
+  "scripts": {
+    "build": "bundt",
+    "pretest": "npm run build",
+    "test": "tape test/*.js | tap-spec"
+  },
+  "keywords": [],
+  "devDependencies": {
+    "tap-spec": "5.0.0",
+    "tape": "4.11.0"
+  }
+}
