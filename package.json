@@ -3,10 +3,10 @@
   "version": "0.0.0",
   "repository": "lukeed/route-sort",
   "description": "WIP",
-  "main": "dist/sort.js",
-  "unpkg": "dist/sort.min.js",
-  "module": "dist/sort.mjs",
-  "umd:name": "routesort",
+  "umd:name": "rsort",
+  "module": "dist/rsort.mjs",
+  "unpkg": "dist/rsort.min.js",
+  "main": "dist/rsort.js",
   "license": "MIT",
   "author": {
     "name": "Luke Edwards",
@@ -26,6 +26,7 @@
   },
   "keywords": [],
   "devDependencies": {
+    "bundt": "^0.4.0",
     "tap-spec": "5.0.0",
     "tape": "4.11.0"
   }
