@@ -1,5 +1,5 @@
-const test = require('tape');
-const rsort = require('../dist/rsort');
+import test from 'tape';
+import rsort from '../src';
 
 test('exports', t => {
 	t.is(typeof rsort, 'function', 'exports a function');
