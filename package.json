@@ -1,6 +1,6 @@
 {
   "name": "route-sort",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "repository": "lukeed/route-sort",
   "description": "A tiny (200B) utility to sort route patterns by specificity",
   "module": "dist/rsort.mjs",
