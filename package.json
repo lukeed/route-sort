@@ -3,11 +3,11 @@
   "version": "0.0.0",
   "repository": "lukeed/route-sort",
   "description": "A tiny (200B) utility to sort route patterns by specificity",
-  "umd:name": "rsort",
   "module": "dist/rsort.mjs",
   "unpkg": "dist/rsort.min.js",
   "main": "dist/rsort.js",
   "types": "rsort.d.ts",
+  "umd:name": "rsort",
   "license": "MIT",
   "author": {
     "name": "Luke Edwards",
