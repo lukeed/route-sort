@@ -2,7 +2,7 @@
   "name": "route-sort",
   "version": "0.0.0",
   "repository": "lukeed/route-sort",
-  "description": "WIP",
+  "description": "A tiny (200B) utility to sort route patterns by specificity",
   "umd:name": "rsort",
   "module": "dist/rsort.mjs",
   "unpkg": "dist/rsort.min.js",
@@ -26,9 +26,15 @@
     "pretest": "npm run build",
     "test": "tape test/*.js | tap-spec"
   },
-  "keywords": [],
+  "keywords": [
+    "exact",
+    "route",
+    "pattern",
+    "specificity",
+    "sort"
+  ],
   "devDependencies": {
-    "bundt": "^0.4.0",
+    "bundt": "0.4.0",
     "tap-spec": "5.0.0",
     "tape": "4.11.0"
   }
